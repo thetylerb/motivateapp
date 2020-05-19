@@ -6,13 +6,13 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
 }
-*{
+/* *{
     margin: 0;
     padding: 0;
     font-family: "Open Sans",sans-serif;
     box-sizing: border-box;
     text-decoration: none;
-  }
+  } */
 main {
     flex: 1 0 auto;
 }
@@ -28,7 +28,7 @@ main {
   
   .top-section{
     padding: 60px 40px;
-    background: #2c2c54aa;
+    background: #000000aa;
   }
   
   .message,.notif{
@@ -52,7 +52,7 @@ main {
     height: 150px;
     margin: auto;
     margin-bottom: 20px;
-    border: 2px solid #2c3e50;
+    border: 2px solid white;
     border-radius: 50%;
     padding: 8px;
     position: relative;
@@ -63,7 +63,7 @@ main {
     width: 100%;
     height: 100%;
     position: absolute;
-    border: 1px solid #2c3e50;
+    border: 1px solid white;
     left: 0;
     top: 0;
     box-sizing: border-box;
@@ -93,7 +93,7 @@ main {
   
   .tag{
     font-size: 18px;
-    color: #222;
+    color: white;
   }
   
   .bottom-section{
@@ -105,6 +105,8 @@ main {
     justify-content: center;
     font-size: 28px;
     text-transform: uppercase;
+    text-align: center;
+    height: 50px;
   }
   
   .border{
@@ -130,7 +132,7 @@ main {
   .social-media i{
     width: 60px;
     height: 60px;
-    background: #2c3e50;
+    background: #b71c1c;
     border-radius: 50%;
     color: #f1f1f1;
     font-size: 20px;
@@ -144,7 +146,7 @@ main {
     width: 100%;
     height: 100%;
     position: absolute;
-    background: #2c3e50;
+    background: #b71c1c;
     left: 0;
     top: 0;
     box-sizing: border-box;
