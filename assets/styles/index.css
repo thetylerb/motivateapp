@@ -18,7 +18,7 @@ main {
 }
 
 .profile-card{
-    width: 420px;
+    width: auto;
     overflow: hidden;
     text-align: center;
     position: relative;
@@ -159,4 +159,5 @@ main {
     transform: scale(1.4);
     opacity: 0;
   }
+  
   
