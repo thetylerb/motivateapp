@@ -1,0 +1,25 @@
+{
+  "name": "motivateapp",
+  "version": "1.0.0",
+  "description": "app for project 3 of coding bootcamp",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thetylerb/motivateapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thetylerb/motivateapp/issues"
+  },
+  "homepage": "https://github.com/thetylerb/motivateapp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.15"
+  }
+}
